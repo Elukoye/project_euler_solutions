@@ -1,0 +1,12 @@
+# https://projecteuler.net/problem=6
+# Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+def sum_1_to_num(n)
+  n * (n + 1)/2
+end
+
+n = 100
+sq_then_sum = 0
+(1..n).each{|i| sq_then_sum += i**2}
+ 
+diff = sum_1_to_num(n)**2 - sq_then_sum
