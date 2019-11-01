@@ -9,4 +9,7 @@ n = 100
 sq_then_sum = 0
 (1..n).each{|i| sq_then_sum += i**2}
  
-diff = sum_1_to_num(n)**2 - sq_then_sum
+diff = sum_1_to_num(n)**2 - sq_then_sum 
+
+
+# formula for calculating the sum of the squares is (2n + 1)(n+1)n/6
